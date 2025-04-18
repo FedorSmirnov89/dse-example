@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	implementation 'com.github.SDARG.opt4j:build:v3.4.0'
+    implementation 'com.github.SDARG.opt4j:opt4j-core:v3.4.0'
+
+}
+
+
+application {
+    mainClassName = 'org.opt4j.core.start.Opt4J'
+}
+
