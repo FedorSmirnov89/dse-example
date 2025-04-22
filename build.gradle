@@ -12,6 +12,8 @@ dependencies {
 	implementation 'com.github.SDARG.opt4j:build:v3.4.0'
     implementation 'com.github.SDARG.opt4j:opt4j-core:v3.4.0'
 
+    implementation 'io.vertx:vertx-web-client:4.5.1'
+    implementation 'io.vertx:vertx-core:4.5.1'
 }
 
 
