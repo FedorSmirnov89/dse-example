@@ -8,3 +8,4 @@ In particular, the example here shows the interaction between an optimizer imple
 
 In general, the example is supposed to run under Windows. The optimizer (left side) is implemented as a gradle application and is supposed to be run directly within Windows. The evaluator (right side) is implemented as a Rust application. While you should be able to compile it for Windows and run it there, I implemented and tested it while running it within WSL.
 
+Please refer to the [Optimizer Readme](https://github.com/FedorSmirnov89/dse-example/blob/master/optimizer/README.md) and the [Evaluator Readme](https://github.com/FedorSmirnov89/dse-example/blob/master/evaluator/README.md) for details on setup and running the two components.
